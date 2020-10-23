@@ -1,0 +1,41 @@
+///////cells
+x_cells = 3
+y_cells = 3
+z_cells = 3
+cell_size = 3.e13
+
+dist_grid_number = 80
+angle_dist_grid = 10
+
+///////electrons
+e_gamma_min = 3.7e4
+e_gamma_max = 5.e5
+e_gamma_brk = 1.e5
+
+///////power-law
+pLaw_index_0 = 4.1
+pLaw_index_1 = 4.1
+//J/m^3
+electron_ke_density = 0.001
+
+///////thermal
+kT_e = 50.0
+therm_norm = 0.0
+q
+///////photons
+ph_nu_min = 1.e5
+ph_nu_max = 1.e30
+
+///////Magnetic field
+B_field_file = B_field.par
+
+//////Simulation
+t_steps = 4
+
+//////Source; redshit, degrees, bulk Lorentz
+source_redshift = 0.031 
+lorentz_factor = 10.0
+source_inclination = 0.57
+
+/////switch physical processes on
+compton_on = n
